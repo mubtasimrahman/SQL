@@ -1,0 +1,224 @@
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.5.6.0
+ SQL authorization ID   = RAHMAM91
+ Local database alias   = CS2DB3
+
+-- q1)
+
+FIRSTNAME            LASTNAME             SALARYPERMONTH           YEARSOFSERVICE          
+-------------------- -------------------- ------------------------ ------------------------
+Dave                 Jackson                         +1.53420E+004            +2.00000E+001
+Teresa               Rice                            +1.31230E+004            +2.10000E+001
+Sarah                Morgan                          +1.25120E+004            +1.20000E+001
+John                 Hunter                          +1.27890E+004            +1.30000E+001
+Michelle             Johnson                         +1.31000E+004            +1.40000E+001
+Linda                Mills                           +1.42310E+004            +2.10000E+001
+Craig                Wong                            +1.36320E+004            +2.50000E+001
+Mike                 Hill                            +1.20760E+004            +1.40000E+001
+Justin               Davis                           +1.65840E+004            +1.20000E+001
+Brian                Darby                           +1.53430E+004            +1.40000E+001
+Sheryl               Miller                          +1.23120E+004            +1.20000E+001
+Joan                 Thomas                          +1.36730E+004            +1.00000E+001
+Jeff                 Rice                            +1.26530E+004            +1.20000E+001
+Connie               Nicholas                        +1.26540E+004            +1.40000E+001
+Kevin                Wood                            +1.50210E+004            +2.10000E+001
+Mark                 Williams                        +1.38360E+004            +1.60000E+001
+Joseph               Roy                             +1.23480E+004            +2.20000E+001
+Leo                  Robinson                        +1.37980E+004            +1.70000E+001
+Matt                 Johnson                         +1.23980E+004            +1.90000E+001
+Karen                Wilson                          +1.22190E+004            +1.70000E+001
+Susan                Stover                          +1.32750E+004            +1.90000E+001
+Janice               Stone                           +1.41320E+004            +2.50000E+001
+Helen                Robinson                        +1.32450E+004            +2.10000E+001
+Jonathon             Ryder                           +1.69340E+004            +2.80000E+001
+Jennifer             Thomas                          +1.29760E+004            +1.00000E+001
+Micheal              Heal                            +1.20170E+004            +1.20000E+001
+Debra                Todd                            +1.58430E+004            +1.30000E+001
+Christine            Hatton                          +1.31430E+004            +1.00000E+001
+Tracy                McDonald                        +1.31240E+004            +1.50000E+001
+Bruce                Hart                            +1.29570E+004            +1.20000E+001
+Richard              Hill                            +1.44590E+004            +1.40000E+001
+Tim                  Joseph                          +1.27540E+004            +1.20000E+001
+Martin               Hunt                            +1.42120E+004            +1.60000E+001
+Lori                 Mason                           +1.41520E+004            +2.20000E+001
+Eric                 Kent                            +1.41830E+004            +1.70000E+001
+Eric                 Mathew                          +1.40230E+004            +1.50000E+001
+Vicki                Carter                          +1.20120E+004            +1.20000E+001
+Allen                Chrysler                        +1.26320E+004            +1.40000E+001
+Henry                Morgan                          +1.26350E+004            +1.10000E+001
+Rebecca              Booth                           +1.20240E+004            +1.00000E+001
+
+  40 record(s) selected.
+
+-- q2)
+
+FIRSTNAME            LASTNAME            
+-------------------- --------------------
+Christina            Reid                
+Carmela              Marshall            
+
+  2 record(s) selected.
+
+-- q3) 
+
+AVGSALPERMONTH          
+------------------------
+  +1.16146458333333E+004
+
+  1 record(s) selected.
+
+-- q4)
+
+GROUPNAME                                                                                           
+----------------------------------------------------------------------------------------------------
+Advanced Polymer Processing and Design                                                              
+Electronic Materials                                                                                
+Environmental Degradation and Corrosion                                                             
+Robotics                                                                                            
+Structural Materials                                                                                
+Structures and Earthquake Engineering Facilities                                                    
+Water and Environmental Engineering Facilities                                                      
+
+  7 record(s) selected.
+
+-- q4)
+
+GROUPNAME                                                                                           
+----------------------------------------------------------------------------------------------------
+Advanced Polymer Processing and Design                                                              
+Electronic Materials                                                                                
+Environmental Degradation and Corrosion                                                             
+Robotics                                                                                            
+Structural Materials                                                                                
+Structures and Earthquake Engineering Facilities                                                    
+Water and Environmental Engineering Facilities                                                      
+
+  7 record(s) selected.
+
+-- q5)
+
+LASTNAME             FIRSTNAME           
+-------------------- --------------------
+Cooper               Julia               
+Cooper               Marian              
+Hill                 Mike                
+Hill                 Richard             
+Hunter               Jany                
+Hunter               John                
+Johnson              Matt                
+Johnson              Michelle            
+Morgan               Henry               
+Morgan               Paul                
+Morgan               Sarah               
+Rice                 Jeff                
+Rice                 Teresa              
+Robinson             Helen               
+Robinson             Leo                 
+Robinson             Tom                 
+Shaw                 Daniel              
+Shaw                 Katherine           
+Smith                Joanne              
+Smith                Kathy               
+Thomas               Jennifer            
+Thomas               Joan                
+Thomas               Wayne               
+Thompson             David               
+Thompson             Nancy               
+Todd                 Debra               
+Todd                 Janice              
+Wilson               Karen               
+Wilson               Nicole              
+Wilson               Tim                 
+
+  30 record(s) selected.
+
+-- q6a)
+
+NAME                                     NUMOFELEVATORS
+---------------------------------------- --------------
+Burke Science Building                                2
+Chester New Hall                                      1
+David Braley Athletic Centre                          2
+Hamilton Hall                                         2
+Information Technology Building                       2
+John Hodgins Building                                 4
+Life Sciences Building                                1
+McMaster University Student Centre                    4
+Mills Library                                         3
+University Hall                                       2
+
+  10 record(s) selected.
+
+-- q6b)
+
+NAME                                     NUMOFELEVATORS
+---------------------------------------- --------------
+John Hodgins Building                                 4
+McMaster University Student Centre                    4
+Mills Library                                         3
+
+  3 record(s) selected.
+
+-- q7)
+
+NAME                                     TYPENAME            
+---------------------------------------- --------------------
+Burke Science Building                   Food Area           
+Chester New Hall                         Food Area           
+David Braley Athletic Centre             Food Area           
+David Braley Athletic Centre             Lobby               
+Hamilton Hall                            Food Area           
+Information Technology Building          Lobby               
+John Hodgins Building                    Food Area           
+John Hodgins Building                    Lobby               
+Life Sciences Building                   Lobby               
+McMaster University Student Centre       Food Area           
+McMaster University Student Centre       Lobby               
+
+  11 record(s) selected.
+
+-- q8)
+
+ID     LASTNAME             FIRSTNAME           
+------ -------------------- --------------------
+     1 Jackson              Dave                
+     4 Rice                 Teresa              
+    54 Stover               Susan               
+    63 Todd                 Debra               
+    87 Chrysler             Allen               
+
+  5 record(s) selected.
+
+-- q9)
+
+HYDROBILL               
+------------------------
+  +9.98060099999988E+002
+
+  1 record(s) selected.
+
+-- q10)
+
+GROUPNAME                                                                                            HYDROBILL               
+---------------------------------------------------------------------------------------------------- ------------------------
+Embedded Systems Laboratory                                                                            +1.00025310000000E+003
+Pulp and Paper Technology                                                                              +9.98060099999988E+002
+Robotics                                                                                               +8.78696400000004E+002
+Environmental Degradation and Corrosion                                                                +8.00806199999999E+002
+Water and Environmental Engineering Facilities                                                         +7.58803800000009E+002
+Nano-and Micro- Device Engineering                                                                     +7.20800399999997E+002
+Structural Materials                                                                                   +6.78372300000001E+002
+Image Processing and Multimedia                                                                        +6.40872000000000E+002
+Electronic Materials                                                                                   +6.39143400000000E+002
+Quantum Condensed Matter Physics                                                                       +6.38898300000000E+002
+Advanced Polymer Processing and Design                                                                 +6.00469200000000E+002
+Astronomy and Astrophysics                                                                             +5.59834200000006E+002
+Structures and Earthquake Engineering Facilities                                                       +5.57215500000000E+002
+Cell and Developmental Biology                                                                         +5.18025300000001E+002
+Probability & Statistics                                                                               +9.97686000000000E+001
+
+  15 record(s) selected.
+
+
